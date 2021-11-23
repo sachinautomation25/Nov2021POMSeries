@@ -1,0 +1,7 @@
+com\qa\trcrm\basepage\BasePage.class
+com\qa\trcrm\pages\ContactsPage.class
+com\qa\trcrm\utils\AppConstants.class
+com\qa\trcrm\utils\JavaScriptUtil.class
+com\qa\trcrm\pages\HomePage.class
+com\qa\trcrm\utils\ElementActions.class
+com\qa\trcrm\pages\LoginPage.class

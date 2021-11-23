@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="trcrm app test suite">
+
+	<listeners>
+
+<listener class-name="com.qa.trcrm.listeners.pdfListener" />
+<!-- <listener class-name="com.qa.trcrm.listeners.ExtentReportListener" />  -->
+<!-- <listener class-name="com.qa.hubspot.listeners.TestAllureListener"/> -->
+<!-- <listener class-name="com.qa.hubspot.listeners.ScreenshotListener" />  -->
+
+
+</listeners>
+	<test name="Regression test-chrome" verbose="2">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.qa.trcrm.tests.LoginPageTest" />
+
+		</classes>
+	</test>
+<!-- 	<test name="Regression test-firefox" verbose="2"> -->
+<!-- 		<parameter name="browser" value="firefox"></parameter> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.qa.trcrm.tests.LoginPageTest" /> -->
+
+<!-- 		</classes> -->
+<!-- 	</test> -->
+</suite> 

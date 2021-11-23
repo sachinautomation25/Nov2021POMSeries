@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="trcrm app test suite" duration-ms="23205" started-at="2021-11-23T11:51:26Z" finished-at="2021-11-23T11:51:49Z">
+    <groups>
+    </groups>
+    <test name="Regression test-chrome" duration-ms="23205" started-at="2021-11-23T11:51:26Z" finished-at="2021-11-23T11:51:49Z">
+      <class name="com.qa.trcrm.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@55d56113]" name="setUp" is-config="true" duration-ms="11056" started-at="2021-11-23T11:51:26Z" finished-at="2021-11-23T11:51:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifySignUpLinkTest()[pri:1, instance:com.qa.trcrm.tests.LoginPageTest@55d56113]" name="verifySignUpLinkTest" duration-ms="95" started-at="2021-11-23T11:51:37Z" finished-at="2021-11-23T11:51:37Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.qa.trcrm.utils.ElementActions.isDisplayed(ElementActions.java:42)
+at com.qa.trcrm.pages.LoginPage.verifySignUPLink(LoginPage.java:35)
+at com.qa.trcrm.tests.LoginPageTest.verifySignUpLinkTest(LoginPageTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.trcrm.tests.LoginPageTest@55d56113]" name="verifyLoginPageTitleTest" duration-ms="193" started-at="2021-11-23T11:51:37Z" finished-at="2021-11-23T11:51:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.trcrm.tests.LoginPageTest@55d56113]" name="loginTest" duration-ms="10221" started-at="2021-11-23T11:51:38Z" finished-at="2021-11-23T11:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@55d56113]" name="tearDown" is-config="true" duration-ms="897" started-at="2021-11-23T11:51:48Z" finished-at="2021-11-23T11:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.trcrm.tests.LoginPageTest -->
+    </test> <!-- Regression test-chrome -->
+  </suite> <!-- trcrm app test suite -->
+</testng-results>
