@@ -17,6 +17,7 @@ public class LoginPage extends BasePage {
 	By _password = By.id("_password");
 	By loginBtn = By.xpath("//input[@type='submit']");
 	By signUpNow = By.xpath("//a[text()='Sign Up Now2']");
+	By signUpNow2 = By.xpath("//a[text()='Sign Up Now2']"); 
 	
 	//constructor of page class
 	public LoginPage(WebDriver driver) {
