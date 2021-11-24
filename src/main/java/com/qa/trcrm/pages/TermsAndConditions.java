@@ -12,6 +12,7 @@ public class TermsAndConditions {
   public void get()
   {
   System.out.println("get");
+	  System.out.println("get");
   }
 	
 }
