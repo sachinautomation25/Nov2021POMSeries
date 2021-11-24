@@ -19,6 +19,7 @@ public class LoginPage extends BasePage {
 	By signUpNow = By.xpath("//a[text()='Sign Up Now2']");
 	By signUpNow2 = By.xpath("//a[text()='Sign Up Now2']"); 
 		By signUpNow3 = By.xpath("//a[text()='Sign Up Now2']"); 
+		By signUpNow5 = By.xpath("//a[text()='Sign Up Now2']"); 
 	
 	//constructor of page class
 	public LoginPage(WebDriver driver) {
